@@ -2,6 +2,7 @@ from flask import Flask, request, render_template, jsonify
 from PIL import Image
 import torch
 from torchvision import transforms, models
+import os
 
 app = Flask(__name__)
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -56,6 +57,6 @@ def predict():
 
     except Exception as e:
         return jsonify({'error': str(e)})
-
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Ensuring the app runs on the correct host and port provided by Render
+    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 5000)))
