@@ -1,4 +1,4 @@
-![Visited Count](https://komarev.com/ghpvc/?username=thilak-r&repo=Kidney-stone-detection&style=flat-square&label=Visited%20Count)
+
 
 # Kidney Stone Detection 🩺
 
