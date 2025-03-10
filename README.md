@@ -71,6 +71,6 @@ Navigate to the following address in your web browser to access the application:
 ---
 
 ❤️ Thank You!
-Thank you for checking out our project! We hope this inspires you to explore the intersection of AI and healthcare. Feel free to reach out for questions, suggestions, or collaborations.
+Thank you for checking out our project! We hope this inspires you to explore the intersection of AI and healthcare.
 
 <br><br>
